@@ -238,7 +238,7 @@ img {
         margin-bottom: 16px; 
     }
     .services-section__wrapper-content {
-        column-gap: 1em;
+/*         column-gap: 1em; */
         flex-basis:0%;
         display: flex;
         position: relative;
@@ -257,7 +257,8 @@ img {
         margin-right: 32px; } 
     }
     .services-section__img {
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        border-radius: 10px;}
         @media screen and (min-width: 768px) {
           .services-section__img {
             min-width: 50%;
