@@ -175,7 +175,11 @@ img {
             overflow: scroll;
         }
     }
-
+    @media only screen and (min-width: 1440px){
+        .services-section__list {
+            overflow:inherit;
+        } 
+    }
     @media only screen and (min-width: 1440px) {
           .services-section__list {
             flex-wrap: wrap; } }
