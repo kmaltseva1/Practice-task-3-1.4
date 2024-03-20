@@ -51,6 +51,9 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
 
 .header {
     display: flex;
