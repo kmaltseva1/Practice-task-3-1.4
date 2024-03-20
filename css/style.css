@@ -51,10 +51,6 @@ img {
     display: block;
 }
 
-a {
-    text-decoration: none;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -201,7 +197,8 @@ a {
             display: inline-block;
             width: min-content; } }
     .services-section__link a {
-        color: #7E7E82; }
+        color: #7E7E82;
+        text-decoration: none;}
     .services-section__link:nth-child(1) {
         background: #FFFFFF;
         border: 2px solid #B8FFEC;
